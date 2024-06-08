@@ -1,0 +1,181 @@
+/* Color variables */
+:root {
+  --white-color: #fff;
+  --bg-color: #ffffff;
+  --gray-color: #f8eeee;
+}
+
+/* Changing background color */
+body {
+  /* background: var(--bg-color) !important; */
+  background-image: url("../images/bg/download (15).jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+background-attachment: fixed;
+color: white;
+
+  
+}
+body > header{
+   box-shadow: 5px 6px 15px #0a063fd0;
+ 
+}
+/* Changing link color */
+.nav-item .nav-link {
+  color: var(--white-color);
+}
+body > section.hero.d-flex.flex-column.align-items-center.justify-content-center > div > a{
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+}
+/*  */
+#skills > div.row.mt-4.py-3 > div{
+  color: white;
+}
+#skills > div.row.mt-4.py-3 > div > h5{
+  color: rgb(216, 205, 205);
+}
+#skills > div.row.d-flex.justify-content-between.mx-0 > div{
+  backdrop-filter: blur(15px);
+  border: solid 1px rgba(128, 128, 128, 0.253);
+
+}
+#skills > div.row.d-flex.justify-content-between.mx-0 > div> p{
+  color: whitesmoke;
+}
+#portfolio > div > div.col-12.d-flex.flex-column.text-center.justify-content-center > h2{
+  color: whitesmoke;
+}
+/* Hero section background image */
+.hero {
+  height: 100vh;
+  background-image: url("../images/bg/Designer.jpeg");
+  /* background-image: url("../images/bg/download (15).jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#skills i {
+  height: 100px;
+  width: 100px;
+}
+
+#portfolio img {
+  height: 300px;
+  object-fit: cover;
+}
+
+#about .img,
+#about img,
+.hire-text h2 {
+  position: relative;
+}
+
+#portfolio > div > div.row.mt-5.mx-0.justify-content-center.align-items-center > a{
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  border: solid 1px rgba(128, 128, 128, 0.253);
+
+}
+#cards > a{
+  text-decoration: none;
+}
+/* #cur_kim > div.col-lg-4.mt-5.order-lg-0.order-1.text-center:hover{
+  border-radius: none;
+} */
+#about > div.row.mt-4.py-3 > div > h2{
+  color: whitesmoke;
+}
+/* Timeline background line */
+#about > div > div.col-9.col-md-5.text-md-end{
+  color: white;
+}
+#about > div> div.col-9.col-md-5.text-md-end > p{
+  color: gainsboro;
+}
+#about > div > div.col-9.col-md-5{
+  color: white;
+}
+#about > div > div.col-9.col-md-5 > h5{
+  color: gainsboro;
+
+}
+
+#about .img::before {
+  content: "";
+  left: 50%;
+  width: 4px;
+  position: absolute;
+  height: calc(100% + 140px);
+  background: var(--gray-color);
+}
+
+#about img,
+#about .hire-text h2 {
+  width: 140px;
+}
+
+#about .hire-text h2 {
+  height: 140px;
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+}
+
+#cv > div.row.mt-4.py-3 > div > h2{
+  color: white;
+}
+#cv > div:nth-child(2){
+  color: white;
+}
+footer .social-icons a {
+  width: 30px;
+  height: 30px;
+}
+body > footer > div > p{
+  color: gainsboro;
+}
+
+#cv img {
+  width: 230px;
+}
+
+/* Contact section background image */
+#contact {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("../images/contact-bg.jpeg");
+}
+
+@media screen and (max-width: 990px) {
+  #skills .card {
+    width: calc(100% / 2 - 10px) !important;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  #skills .card,
+  #portfolio .card-wrapper {
+    width: 100% !important;
+  }
+}
+
+#cards{
+  transition: 0.5s all ease-out;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  border: solid 1px rgba(128, 128, 128, 0.253);
+}
+#cards > div > h6{
+  color: white;
+}
+#cards:hover
+{
+     box-shadow: 5px 6px 15px #0a063fd0;
+     transition: 0.5s all ease-out;
+}
